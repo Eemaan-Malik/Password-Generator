@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <section class="container">
+        <div class="spacing">
+            <h1>Generate a <span class="text-green"> <br>random password</span></h1>
+            <p class="subheading text-accent">Never use an insecure password again.</p>
+            <div class="row">
+                <input type="text" id="length-value" placeholder="10">
+                <button id="generate"><img src="Icon.png">Generate Password</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column-left">
+                <p class="password" id="pass-el-one"></p>
+                <p class="password" id="pass-el-two"></p>
+            </div>
+            <div class="column-right">
+                <p class="password" id="pass-el-three"></p>
+                <p class="password" id="pass-el-four"></p>
+            </div> 
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

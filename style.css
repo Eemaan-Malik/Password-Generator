@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    background: #10B981;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    box-shadow: 0px 1px 2px #0000000d;
+}
+
+button > img {
+    margin-right: 8px;
+}
+
+#generate {
+    display: inline-flex;
+    height: 100%;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 16px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column-left, .column-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column-left {
+    margin-right: 8px;
+}
+
+.column-right {
+    margin-left: 8px;
+}
+
+.spacing {
+    margin-bottom: 18px;
+}
+
+.container {
+    padding: 48px;
+    margin: 48px;
+    background: #1F2937;
+}
+
+.text-green {
+    color: #10B981;
+}
+
+.text-accent {
+    color: #D5D4D8;
+}
+
+.password {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    color: #10B981;
+    background: #273549;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+    background: #273549;
+    height: 1px;
+    border: none;
+}
